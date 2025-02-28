@@ -24,6 +24,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             Layout01Theme {
+
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = Color.Black // Fundo preto igual à imagem
